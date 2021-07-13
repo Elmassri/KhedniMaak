@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Khedni Maak</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="messages">Messages</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="chat">Chat</string>
+    <string name="continue_with_phone_number">Continue with mobile number</string>
+    <string name="_961">+961</string>
+    <string name="continuephone">continue</string>
+    <string name="phoneLable">Make sure you can receive SMS to this number so that we can send you a code</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="verify">Verify</string>
+    <string name="my_rides">My Rides</string>
+    <string name="profile">Profile</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="enter_your_name">Full Name</string>
+    <string name="get_started">Get started</string>
+    <string name="enter_your_age">Enter your age</string>
+    <string name="hello_please_choose_you_role">Hello!
+        Please choose your role</string>
+    <string name="i_am_passenger">i am passenger</string>
+    <string name="i_am_driver">i am driver</string>
+    <string name="places_api">AIzaSyDEdreWHUqJ9xHxuvpO1VCaWTkslpwxbXg</string>
+    <string name="todo">TODO</string>
+    <string name="add">Add</string>
+    <string name="source_location">Source location</string>
+    <string name="desyination_location">Destination location</string>
+    <string name="number_of_passengers">Number of passengers</string>
+    <string name="cost">Cost</string>
+    <string name="please_fill_this_form_to_add_your_ride">Please fill this form to add your ride</string>
+    <string name="i_will_go_at">I will go at:</string>
+    <string name="i_will_back_at">I will back at :</string>
+    <string name="mapKey">AIzaSyDEdreWHUqJ9xHxuvpO1VCaWTkslpwxbXg</string>
+    <string name="departure_time">Departure time</string>
+    <string name="seats_availble">Seats availble</string>
+</resources>

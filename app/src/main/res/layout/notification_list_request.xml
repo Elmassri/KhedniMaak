@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imageViewRecNotification"
+                    android:layout_width="60dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="start"
+                    app:shapeAppearanceOverlay="@style/circular"
+                    android:scaleType="centerCrop"
+
+                    />
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        android:id="@+id/textViewNameNotification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Mahmoud Massri"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/roleOfRideNotification"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Requested to join your ride"
+
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textColor="@color/quantum_black_secondary_text"
+                        android:textSize="16sp"
+
+                         />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <!-- Title, secondary and supporting text -->
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                </LinearLayout>
+
+
+
+
+                <!-- Buttons -->
+                <LinearLayout
+
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="end"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        style="?attr/borderlessButtonStyle"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#76ED89"
+                        android:layout_gravity="right"
+                        android:textAllCaps="false"
+                        android:id="@+id/acceptBtn"
+                        android:text="Accept"
+                         />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="?attr/borderlessButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:textColor="@color/quantum_error_dark"
+                        android:layout_gravity="start"
+                        android:text="Reject"
+                        android:id="@+id/rejecttBtn"
+                         />
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
